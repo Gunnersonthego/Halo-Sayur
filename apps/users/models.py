@@ -69,7 +69,7 @@ class UserProfile(models.Model):
     name = models.CharField(max_length=100, default=True)
     bio = models.TextField(default='', blank=True)
     preferred_name = models.CharField(max_length=100, null=True)
-    image = models.ImageField(upload_to='profil-images')
+    #image = models.ImageField(upload_to='profil-images')
     avatar_url = models.CharField(max_length=255, null=True)
     discord_name = models.CharField(max_length=100, null=True)
     github_username = models.CharField(max_length=100)
