@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'apps.users', 
     'django_filters',
     'apps.certificates',
+    'apps.waitlist',
+    'apps.lecture',
 ]
 
 MIDDLEWARE = [

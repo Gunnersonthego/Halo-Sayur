@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth import get_user_model
 # Create your models here.
 
 class Timestamps(models.Model):
@@ -8,4 +8,5 @@ class Timestamps(models.Model):
 
     class Meta:
         abstract = True
-        
+
+
